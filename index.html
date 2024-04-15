@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLINKIT</title>
+    <style>
+        /* CSS styles can go here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 15;
+            background-color: #fff305;
+        }
+        header {
+            background-color: #fff305;
+            color: #000000;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #121211;
+            color: #fff305;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav a {
+            color: #fff305;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .clothing-item {
+            background-color: #fff305;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px; /* Adjusted margin for all items */
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .clothing-item img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BLINKIT</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <!-- vegetable Item 1 -->
+        <div class="Vegetable">
+            <img src="vendakka.jpeg" alt="Vegetable 1">
+            <h2>Vendakkayi</h2>
+            <p>Description: Fresh Vendakkayi.</p>
+            <p>Price: RS 50/KG</p>
+            <a href="cart.html" class="cta">Add to cart </a>
+        </div>
+        
+        <!-- oil Item 2 -->
+        <div class="oil">
+            <img src="oil.jpeg" alt="oil">
+            <h2>Gemini oil</h2>
+            <p>Description: Refined Sunflower oil.</p>
+            <p>Price: RS 650/L</p>
+            <a href="cart.html" class="cta">Add to cart </a>
+        </div>
+        <!-- vegetable Item 3 -->
+        <div class="TOMATO-item">
+            <img src="tomato.jpeg" alt="vegetable 3">
+            <h2>Tomato</h2>
+            <p>Description: Fresh Tomato.</p>
+            <p>Price: RS 25/KG</p>
+            <a href="cart.html" class="cta">Add to cart </a>
+        </div>
+        <!-- milma Item 4 -->
+        <div class="milma">
+            <img src="milma.jpeg" alt="milma">
+            <h2>Milma Ghee</h2>
+            <p>Description:Fat Rich Milma Product.</p>
+            <p>Price: RS 150</p>
+            <a href="cart.html" class="cta">Add to cart </a>
+        </div>
+        <!-- vegetable Item 5 -->
+        <div class="vegetable">
+            <img src="images.jpeg" alt="vegetable">
+            <h2>Broccoli</h2>
+            <p>Description: Incorporating broccoli into your diet 
+                offers a plethora of health benefits. .</p>
+            <p>Price: RS 36/peice</p>
+            <a href="cart.html" class="cta">Add to cart </a>
+        </div>
+        <!-- Rice Item 6 -->
+        <div class="-item">
+            <img src="rice.jpeg" alt="Rice">
+            <h2>SIR CLASSIC</h2>
+            <p>Description: 10 KG SIR CLASSIC rice. Special Basmathi rice</p>
+            <p>Price: RS 550</p>
+            <a href="cart.html" class="cta">Add to cart </a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 BLINKIT. All rights reserved.</p>
+    </footer>
+</body>
+</html>
